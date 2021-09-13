@@ -1,0 +1,42 @@
+/* ESTILOS CON SASS */
+/*** ESTILOS FUENTES ***/
+/*** ESTILOS ALINEACION ***/
+/*** ESTILOS COLORES ***/
+/*****************
+------HEADER------
+*****************/
+.hlogo {
+  width: 20vh;
+  justify-content: center; }
+
+.hlogo1 {
+  padding: 20px 0px 10px 15px; }
+
+@media (max-width: 991px) {
+  .hlogo {
+    margin-left: 40%; } }
+
+.titulo1 {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 5vw;
+  padding-top: 20px; }
+
+.titulo2 {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  color: black;
+  margin-bottom: 5%;
+  font-size: 3vw;
+  margin-left: 15%; }
+
+@media (max-width: 575.98px) {
+  .tmedia {
+    font-size: 8vw; } }
+
+.sesion {
+  text-decoration: none;
+  color: black;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: medium; }

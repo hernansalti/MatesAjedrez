@@ -1,0 +1,52 @@
+/* ESTILOS CON SASS */
+
+/*** ESTILOS FUENTES ***/
+@import "fuentes";
+/*** ESTILOS ALINEACION ***/
+@import "texto";
+
+/*** ESTILOS COLORES ***/
+@import "colores";
+
+/*****************
+------HEADER------
+*****************/
+.hlogo{
+    width: 20vh;
+    justify-content: center;
+}
+.hlogo1{
+    padding: 20px 0px 10px 15px;
+}
+@media (max-width: 991px) {
+    .hlogo {
+        margin-left: 40%;    
+    }
+}
+.titulo1{
+    font-family: $fjulius;
+    text-align: $atac;
+    color: $cnegro;
+    font-size: 5vw;
+    padding-top: 20px;
+
+}
+.titulo2{
+    font-family: $fjulius;
+    text-align: $atac;
+    color: $cnegro;
+    margin-bottom: 5%;
+    font-size: 3vw;
+    margin-left: 15%;
+}
+@media (max-width: 575.98px) {
+    .tmedia{
+        font-size: 8vw;
+    }
+}
+.sesion{
+    text-decoration: $nodec;
+    color: $cnegro;
+    font-family: $fjulius;
+    font-size: medium;
+}
