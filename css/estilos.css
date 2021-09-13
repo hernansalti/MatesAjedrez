@@ -1,9 +1,38 @@
+/* estilos propios css */
+/* body */
+body{
+    background-image: url(../img/fondo3b.png);
+}
+/* header */
+header{
+}
+.hlogo{
+    width: 20vh;
+    justify-content: center;   
+}
+.titulo1{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 5vw;
+    padding-top: 50px;
+}
+.titulo2{
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    color: black;
+    margin-bottom: 8%;
+    font-size: 3vw;
+    margin-left: 15%;
+}
+.hlogo1{
+    padding: 10px; 
+}
+/* cuerpo */
 .car{
     width: 30%;
 }
+/* footer */
 .logoig{
     width: 50px;
-}
-body{
-    background-image: url(../img/fondo3b.png);
 }
