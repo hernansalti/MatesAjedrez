@@ -13,14 +13,13 @@
 *****************/
 .hlogo{
     width: 20vh;
-    justify-content: center;
 }
 .hlogo1{
-    padding: 20px 0px 10px 15px;
+    padding: 15px 0px 10px 15px;
 }
 @media (max-width: 991px) {
     .hlogo {
-        margin-left: 40%;    
+        margin-left: 40%;
     }
 }
 .titulo1{
@@ -49,4 +48,99 @@
     color: $cnegro;
     font-family: $fjulius;
     font-size: medium;
+}
+/*****************
+------NAV--------
+*****************/
+.hnav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+}
+@media (max-width: 991px) {
+    .hnav{
+        justify-content: end;
+    }
+}
+.titulo3{
+    text-decoration: $nodec;
+    font-family: $fraleway;
+    color: $cnegro;
+    font-size: 20px;
+}
+.titulo3:hover{
+    text-shadow: 3px 3px 3px $caqua;
+}
+.desp{
+    background-color: $caquadeg;
+}
+/*****************
+------CUERPO------
+*****************/
+.car{
+    width: 25vw;
+    margin: 30px 30px 15px 15vw;
+}
+@media (max-width: 991px) {
+    .car{
+        margin-left: 25%;
+        width: 50vh;
+    }
+}
+.img1{
+    width: 30vw;
+    margin: 30px 30px 30px 10vw;
+}
+@media (max-width: 991px) {
+    .img1{
+        margin-left: 25%;
+        width: 50vh;
+    }
+}
+.texto1{
+    margin: 10px;
+    text-align: $atac;
+    font-family: $fraleway;
+    color: $cblanco;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px $caqua;
+    background-color: $cnegrodeg;
+}
+.texto2{
+    margin: 10px;
+    text-align: $atac;
+    font-family: $fraleway;
+    color: $cnegro;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px $caqua;
+    background-color: $cblancodeg;
+}
+ .imgdec{
+      border-radius: 100px;
+  }
+
+/*****************
+------FOOTER------
+*****************/
+
+.foot1{
+    padding-top: 10px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.486), white)
+}
+.logoig{
+    margin: 10px;
+    width: 50px;
+}
+.texto3{
+    margin-left: 10vw;
+    padding-top: 17px;
+    text-align: $atac;
+    font-family: $fraleway;
+    color: $cnegro;
+    font-size: 16px;
+    text-shadow: 3px 3px 5px $caqua;
+    background-color: $cblancodeg;
 }
