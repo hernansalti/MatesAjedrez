@@ -3,17 +3,24 @@
 /*** ESTILOS ALINEACION ***/
 /*** ESTILOS COLORES ***/
 /*****************
+-------BODY-------
+*****************/
+body {
+  background-image: url(../img/fondo3b.png);
+  margin: 0px;
+  padding: 0px; }
+
+/*****************
 ------HEADER------
 *****************/
 .hlogo {
   width: 20vh; }
 
 .hlogo1 {
-  padding: 15px 0px 10px 15px; }
-
-@media (max-width: 991px) {
-  .hlogo {
-    margin-left: 40%; } }
+  padding: 15px 0px 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .titulo1 {
   font-family: "Julius Sans One", sans-serif;
@@ -30,15 +37,14 @@
   font-size: 3vw;
   margin-left: 15%; }
 
-@media (max-width: 575.98px) {
-  .tmedia {
-    font-size: 8vw; } }
-
 .sesion {
   text-decoration: none;
   color: black;
   font-family: "Julius Sans One", sans-serif;
-  font-size: medium; }
+  font-size: 16px; }
+
+.sesion:hover {
+  text-shadow: 3px 3px 3px #5dc1b9; }
 
 /*****************
 ------NAV--------
@@ -48,10 +54,6 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly; }
-
-@media (max-width: 991px) {
-  .hnav {
-    justify-content: end; } }
 
 .titulo3 {
   text-decoration: none;
@@ -69,25 +71,12 @@
 ------CUERPO------
 *****************/
 .car {
-  width: 25vw;
-  margin: 30px 30px 15px 15vw; }
-
-@media (max-width: 991px) {
-  .car {
-    margin-left: 25%;
-    width: 50vh; } }
-
-.img1 {
-  width: 30vw;
-  margin: 30px 30px 30px 10vw; }
-
-@media (max-width: 991px) {
-  .img1 {
-    margin-left: 25%;
-    width: 50vh; } }
+  width: 20vw;
+  margin: 30px 30px 15px 10vw; }
 
 .texto1 {
-  margin: 10px;
+  width: 100%;
+  margin: 30px 5px 30px 5px;
   text-align: center;
   font-family: "Raleway", sans-serif;
   color: white;
@@ -95,8 +84,13 @@
   text-shadow: 3px 3px 5px #5dc1b9;
   background-color: rgba(0, 0, 0, 0.356); }
 
+.img1 {
+  width: 30vw;
+  margin: 30px 30px 30px 10vw; }
+
 .texto2 {
-  margin: 10px;
+  width: 100%;
+  margin: 20px 5px 30px 5px;
   text-align: center;
   font-family: "Raleway", sans-serif;
   color: black;
@@ -105,7 +99,8 @@
   background-color: rgba(255, 255, 255, 0.356); }
 
 .imgdec {
-  border-radius: 100px; }
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px #5dc1b9; }
 
 /*****************
 ------FOOTER------
@@ -129,3 +124,49 @@
   font-size: 16px;
   text-shadow: 3px 3px 5px #5dc1b9;
   background-color: rgba(255, 255, 255, 0.356); }
+
+/*****************
+--MEDIA QUERIES---
+*****************/
+@media (max-width: 1199.98px) {
+  body {
+    margin: 0px;
+    padding: 0px; }
+  .sesion {
+    font-size: 12px; } }
+
+@media (max-width: 991.98px) {
+  .titulo1 {
+    font-size: 7vw; }
+  .titulo2 {
+    font-size: 4vw; }
+  .sesion {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .car {
+    width: 25vw;
+    margin-left: 35%; }
+  .img1 {
+    width: 35vw;
+    margin-left: 28%; } }
+
+@media (max-width: 768px) {
+  .hlogo {
+    width: 15vh; }
+  .texto3 {
+    font-size: 14px; } }
+
+@media (max-width: 575.98px) {
+  .hlogo {
+    width: 12vh; }
+  .titulo1 {
+    font-size: 9vw; }
+  .titulo2 {
+    font-size: 5vw; }
+  .car {
+    width: 30vw; }
+  .img1 {
+    width: 40vw; }
+  .texto3 {
+    font-size: 12px; } }
