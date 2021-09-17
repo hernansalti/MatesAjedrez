@@ -16,6 +16,15 @@ body{
     background-image: url(../img/fondo3b.png);
     margin: 0px;
     padding: 0px;
+    a{
+        text-decoration: $nodec;
+        color: $cnegro;
+        
+    }
+    a:hover{
+        text-shadow: 3px 3px 3px $caqua;
+    }
+    
 }
 
 /*****************
@@ -48,18 +57,14 @@ body{
 }
 .sesion{
     font-family: $fjulius;
-    text-decoration: $nodec;
-    color: $cnegro;
     font-size: 16px;
-}
-.sesion:hover{
-    text-shadow: 3px 3px 3px $caqua;
 }
 /*****************
 ------NAV--------
 *****************/
 
 .hnav{
+    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -67,13 +72,8 @@ body{
 }
 
 .titulo3{
-    text-decoration: $nodec;
     font-family: $fraleway;
-    color: $cnegro;
     font-size: 20px;
-}
-.titulo3:hover{
-    text-shadow: 3px 3px 3px $caqua;
 }
 .desp{
     background-color: $caquadeg;
@@ -140,6 +140,107 @@ body{
     background-color: $cblancodeg;
 }
 
+
+/****NOSOTROS****/
+
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/****UN BUEN MATE****/
+/* tabla */
+// .sub2{
+//     text-decoration: underline;
+//     font-family: 'Raleway', sans-serif;
+//     font-size: 25px;
+//     margin-left: 20px;
+//     margin-bottom: 10px;
+//}
+th{
+    font-family: $fraleway;
+    text-align: center;
+    color: $cnegro;
+    font-size: 20px;
+}
+td{
+    font-family: $fraleway;
+    text-align: justify;
+    color: $cnegro;
+    font-size: 15px;
+    padding: 5px;
+}
+// .marca{
+//     text-align: center;
+// }
+// table{
+//     padding: 0px;
+//     margin-left: 150px;
+//     margin-right: 150px;
+//     margin-bottom: 30px;
+//     background-color: white;
+//     border-color: #5dc1b9b7;
+// }
+
+/****Productos****/
+.imgprod{
+    width: 15vw;
+    margin: 15px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px $caqua;
+
+}
+.imgprod1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.titulo4{
+    padding: 10px;
+    font-family: $fjulius;
+    font-size: 2vw;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px $caqua;
+}
+
+/****INGRESO****/
+.subtitulo{
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    line-height: 200px;
+    font-size: 45px;
+}
+.sub2{
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.formulario__contenido{
+    background-color: $caquadeg;
+    padding: 15px; 
+    margin: 50px;
+    line-height: 25px;  
+}
+.sel{
+    margin-top: 15px;
+}
+.centrado{
+    margin-top: 10px;
+    margin-left: 150px;
+    padding-inline: 2%;
+}
 /*****************
 --MEDIA QUERIES---
 *****************/
@@ -205,4 +306,7 @@ body{
     .texto3{        
         font-size: 12px;
     }
+    .imgprod{
+        width: 35vw;
+}
 }

@@ -9,6 +9,11 @@ body {
   background-image: url(../img/fondo3b.png);
   margin: 0px;
   padding: 0px; }
+  body a {
+    text-decoration: none;
+    color: black; }
+  body a:hover {
+    text-shadow: 3px 3px 3px #5dc1b9; }
 
 /*****************
 ------HEADER------
@@ -39,30 +44,21 @@ body {
 
 .sesion {
   font-family: "Julius Sans One", sans-serif;
-  text-decoration: none;
-  color: black;
   font-size: 16px; }
-
-.sesion:hover {
-  text-shadow: 3px 3px 3px #5dc1b9; }
 
 /*****************
 ------NAV--------
 *****************/
 .hnav {
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly; }
 
 .titulo3 {
-  text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: black;
   font-size: 20px; }
-
-.titulo3:hover {
-  text-shadow: 3px 3px 3px #5dc1b9; }
 
 .desp {
   background-color: #5dc1b98a; }
@@ -125,6 +121,83 @@ body {
   text-shadow: 3px 3px 5px #5dc1b9;
   background-color: rgba(255, 255, 255, 0.356); }
 
+/****NOSOTROS****/
+.foot1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/****UN BUEN MATE****/
+/* tabla */
+th {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 20px; }
+
+td {
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+  color: black;
+  font-size: 15px;
+  padding: 5px; }
+
+/****Productos****/
+.imgprod {
+  width: 15vw;
+  margin: 15px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9; }
+
+.imgprod1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.titulo4 {
+  padding: 10px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 2vw;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9; }
+
+/****INGRESO****/
+.subtitulo {
+  font-family: 'Julius Sans One', sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  line-height: 200px;
+  font-size: 45px; }
+
+.sub2 {
+  text-decoration: underline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-bottom: 10px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.formulario__contenido {
+  background-color: #5dc1b98a;
+  padding: 15px;
+  margin: 50px;
+  line-height: 25px; }
+
+.sel {
+  margin-top: 15px; }
+
+.centrado {
+  margin-top: 10px;
+  margin-left: 150px;
+  padding-inline: 2%; }
+
 /*****************
 --MEDIA QUERIES---
 *****************/
@@ -169,4 +242,6 @@ body {
   .img1 {
     width: 40vw; }
   .texto3 {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .imgprod {
+    width: 35vw; } }
