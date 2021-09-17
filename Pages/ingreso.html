@@ -76,22 +76,30 @@
           </nav>
         </div>
     <!-- cuerpo -->
-  <main class="container">
-    <div class="row">
+  <main class="container bg-primary">
+    <div class="row bg-danger">
       <h2 class="subtitulo">Ingreso</h2>
     </div>
-    <div class="row">
-      <form class="formulario" action="" method="POST" enctype="text/plain">
+    <div class="row bg-success">
+      <form class="container formulario" action="" method="POST" enctype="text/plain">
           <fieldset class="formulario__contenido">
               <legend class="sub2">Ingresá</legend>
-              <label for="e-mail">Ingresá tu e-mail</label>
-              <input type="email" name="e-mail" placeholder="nombre@ejemplo.com"/>
-              <label for="password">Ingresá tu Contraseña</label>
-              <input type="password" name="password" placeholder="Ingresa Contraseña" />
-              <input class="centrado2" type="submit" value="Entrar">
-              <input class="centrado2" type="reset"value="Limpiar">
+              <div class="col-12 col-lg-6">
+                <label for="e-mail">Ingresá tu e-mail</label>
+                <input type="email" name="e-mail" placeholder="nombre@ejemplo.com"/>
+              </div>
+              <div class="col-12 col-lg-6">
+                <label for="password">Ingresá tu Contraseña</label>
+                <input type="password" name="password" placeholder="Ingresa Contraseña" />
+              </div>  
+                <div class="col-12 col-lg-6">
+                <input class="centrado2" type="submit" value="Entrar">
+                <input class="centrado2" type="reset"value="Limpiar">
+            </div>
           </fieldset>
-      </form>        
+      </form> 
+    </div>   
+    <div class="row bg-secondary">      
       <form class="formulario" action=""method="POST" enctype="text/plain">
           <fieldset class="formulario__contenido">
               <legend class="sub2">¿Todavía no te registraste?</legend>

@@ -163,21 +163,10 @@ td {
   box-shadow: 5px 5px 5px #5dc1b9; }
 
 /****INGRESO****/
-.subtitulo {
-  font-family: 'Julius Sans One', sans-serif;
-  color: black;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-  line-height: 200px;
-  font-size: 45px; }
-
 .sub2 {
   text-decoration: underline;
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-  margin-left: 20px;
-  margin-bottom: 10px; }
+  font-family: "Raleway", sans-serif;
+  font-size: 25px; }
 
 .formulario {
   display: flex;
@@ -189,14 +178,6 @@ td {
   padding: 15px;
   margin: 50px;
   line-height: 25px; }
-
-.sel {
-  margin-top: 15px; }
-
-.centrado {
-  margin-top: 10px;
-  margin-left: 150px;
-  padding-inline: 2%; }
 
 /*****************
 --MEDIA QUERIES---
