@@ -142,11 +142,32 @@ body{
 
 
 /****NOSOTROS****/
-
-.foot1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.subtitulo1{
+    text-align: $atac;
+    font-family: $fraleway;
+    color: $cnegro;
+    font-size: 4vw;
+    text-shadow: 3px 3px 5px $caqua;
+}
+.foto1{
+    margin-top: 20px;
+    width: 30vw;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px $caqua;
+    background-color: $cblancodeg;
+}
+ .fparrafo1{
+     border-radius: 100px;
+     box-shadow: 5px 5px 5px $caqua;
+     background-color: $cblancodeg;
+ }
+.parrafo1{
+    margin-top: 20px;
+    font-family: $fraleway;
+    text-align: center;
+    color: $cnegro;
+    font-size: 1.2vw;
+    padding: 20px;
 }
 /****UN BUEN MATE****/
 /* tabla */
@@ -267,6 +288,12 @@ td{
     .texto3{        
         font-size: 14px;
     }
+    .parrafo1{
+        font-size: 1.6vw;
+    }
+    .subtitulo1{
+        font-size: 5.5vw;
+    }
 }
 //portrait phones
 @media (max-width: 575.98px) { 
@@ -290,5 +317,8 @@ td{
     }
     .imgprod{
         width: 35vw;
+    }
+    .foto1{
+        width: 40vw;
 }
 }

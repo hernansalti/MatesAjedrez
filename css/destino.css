@@ -122,10 +122,32 @@ body {
   background-color: rgba(255, 255, 255, 0.356); }
 
 /****NOSOTROS****/
-.foot1 {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+.subtitulo1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 4vw;
+  text-shadow: 3px 3px 5px #5dc1b9; }
+
+.foto1 {
+  margin-top: 20px;
+  width: 30vw;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9;
+  background-color: rgba(255, 255, 255, 0.356); }
+
+.fparrafo1 {
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9;
+  background-color: rgba(255, 255, 255, 0.356); }
+
+.parrafo1 {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 1.2vw;
+  padding: 20px; }
 
 /****UN BUEN MATE****/
 /* tabla */
@@ -209,7 +231,11 @@ td {
   .hlogo {
     width: 15vh; }
   .texto3 {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .parrafo1 {
+    font-size: 1.6vw; }
+  .subtitulo1 {
+    font-size: 5.5vw; } }
 
 @media (max-width: 575.98px) {
   .hlogo {
@@ -225,4 +251,6 @@ td {
   .texto3 {
     font-size: 12px; }
   .imgprod {
-    width: 35vw; } }
+    width: 35vw; }
+  .foto1 {
+    width: 40vw; } }
