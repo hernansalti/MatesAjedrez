@@ -140,7 +140,7 @@
         </div>
         </div>
          -->
-        <main class="container">
+        <!-- <main class="container">
             <div class="row">
                 <h2 class="row">Nosotros</h2>
                 <div class="col-12 col-lg-6">
@@ -162,7 +162,7 @@
                     </div>
                 </div>
             </div>
-        </main>    
+        </main>     -->
                 <!-- <div class="col-12 col-lg-3">
                     <div class="d-flex align-items-center justify-content-center">
                         <h1>Termos</h1>
@@ -279,7 +279,8 @@
                                         <div class="ps-3">
                                         <h6 class="m-0 h6">Daniel laskd</h6>
                                         <p class="m-0 h6">Lorem, ipsum.</p>
-                                        </div>
+                                        </div>                    <input class="centrado" type="submit" value="Registrarme">
+
                                     </div>
                                     <p class="h6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, rem asperiores! Quam rerum praesentium corporis? Quod optio excepturi nobis assumenda quae officia sequi numquam eveniet, ipsum minima molestiae facere. Ipsam!</p>
                                     <p class="fs-6 lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laborum, quia blanditiis nobis aliquid odit ipsum sed dolores accusamus dicta excepturi obcaecati pariatur esse deleniti beatae officia accusantium perspiciatis nostrum?</p>
@@ -305,6 +306,84 @@
                 </div>            
             </div>    
         </div> -->
+    <!-- </main> -->
+    <main class="container">
+        <div class="row">
+            <h2 class="subtitulo1">Ingreso</h2>
+        </div>
+        <div class="row">
+            <div class="row col-12 col-lg-6 bg-success">
+                <form class="formulario" action="" method="POST" enctype="text/plain">
+                    <fieldset class="formulario__contenido">
+                        <legend class="sub2">Ingresá</legend>
+                        <div class="interlineado">
+                            <label for="e-mail">Ingresá tu e-mail</label>
+                            <div>
+                                <input type="email" name="e-mail" placeholder="nombre@ejemplo.com"/>
+                            </div>
+                        </div>
+                        <div class="interlineado">
+                            <label for="password">Ingresá tu Contraseña</label>
+                            <div>
+                                <input type="password" name="password" placeholder="Ingresa Contraseña" />
+                            </div>
+                        </div>  
+                        <div class="interlineado">
+                            <input type="submit" value="Entrar">
+                            <input type="reset"value="Limpiar">
+                        </div>
+                    </fieldset>
+                </form> 
+            </div>
+            <div class="row col-12 col-lg-6 bg-secondary">      
+                <form class="formulario" action=""method="POST" enctype="text/plain">
+                    <fieldset class="formulario__contenido">
+                        <legend class="sub2">¿Todavía no te registraste?</legend>
+                        <div class="interlineado">
+                            <label for="nombre">Ingresá tu nombre</label>
+                            <div>
+                                <input type="text" name="nombre" placeholder="Nombre"/>
+                            </div>
+                        </div>
+                        <div class="interlineado">
+                            <label for="e-mail">Ingresá tu e-mail</label>
+                            <div>  
+                                <input type="email" name="e-mail" placeholder="nombre@ejemplo.com"/>
+                            </div>
+                        </div>
+                        <div class="interlineado">
+                            <label for="password">Ingresá tu Contraseña</label>
+                            <div>
+                            <input type="password" name="password" placeholder="Ingresa Contraseña" />
+                            </div>
+                        </div>
+                        <div class="interlineado">
+                            <p>Indicar</p>
+                            <select name="seleccionar">
+                                <option value="individuo">Individuo</option>
+                                <option value="comercio">Comercio</option>
+                                <option value="revendedor">Revendedor</option>
+                            </select>
+                        </div>    
+                        <div class="interlineado">
+                            <p>¿Deseas recibir las novedades?</p>
+                            <label for="informacion">si</label>
+                            <input type="radio" name="informacion" value="si">
+                            <label for="informacion">no</label>
+                            <input type="radio" name="informacion" value="no">
+                        </div>            
+                        <div class="interlineado"> 
+                            <input class="" type="checkbox"  name="acepta" value="Acepta">
+                            <p>Acepto los términos y condiciones</p>
+                        </div>
+                        <div class="interlineado">
+                            <input type="submit" value="Registrarme">
+                            <input  type="reset"value="Limpiar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </main>
 </body>
 </html>

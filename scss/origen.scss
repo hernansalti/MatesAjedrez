@@ -140,8 +140,8 @@ body{
     background-color: $cblancodeg;
 }
 
-
 /****NOSOTROS****/
+
 .subtitulo1{
     text-align: $atac;
     font-family: $fraleway;
@@ -227,23 +227,26 @@ td{
 }
 
 /****INGRESO****/
+
 .sub2{
     text-decoration: underline;
     font-family: $fraleway;
     font-size: 25px;
 }
-.formulario{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+// .formulario{
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+// }
 .formulario__contenido{
     background-color: $caquadeg;
     padding: 15px; 
     margin: 50px;
     line-height: 25px;  
 }
-
+.interlineado{
+    padding: 10px 5px;  
+}
 /*****************
 --MEDIA QUERIES---
 *****************/
@@ -320,5 +323,8 @@ td{
     }
     .foto1{
         width: 40vw;
-}
+    }
+    .sub2{
+        font-size: 20px;
+    }
 }
