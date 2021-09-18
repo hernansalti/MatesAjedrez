@@ -170,14 +170,12 @@ body{
     padding: 20px;
 }
 /****UN BUEN MATE****/
-/* tabla */
-// .sub2{
-//     text-decoration: underline;
-//     font-family: 'Raleway', sans-serif;
-//     font-size: 25px;
-//     margin-left: 20px;
-//     margin-bottom: 10px;
-//}
+
+.estilo-tabla{
+    font-size: 20px;
+    text-shadow: 3px 3px 5px $cblanco;
+    background-color: $caquadeg;
+}
 th{
     font-family: $fraleway;
     text-align: center;
@@ -186,23 +184,11 @@ th{
 }
 td{
     font-family: $fraleway;
-    text-align: justify;
+    text-align: center;
     color: $cnegro;
     font-size: 15px;
     padding: 5px;
 }
-// .marca{
-//     text-align: center;
-// }
-// table{
-//     padding: 0px;
-//     margin-left: 150px;
-//     margin-right: 150px;
-//     margin-bottom: 30px;
-//     background-color: white;
-//     border-color: #5dc1b9b7;
-// }
-
 /****Productos****/
 .imgprod{
     width: 15vw;
@@ -233,11 +219,6 @@ td{
     font-family: $fraleway;
     font-size: 25px;
 }
-// .formulario{
-//     display: flex;
-//     flex-direction: column;
-//     flex-wrap: wrap;
-// }
 .formulario__contenido{
     background-color: $caquadeg;
     padding: 15px; 
@@ -252,7 +233,6 @@ td{
 
 .img2{
     width: 10vw;
-    // margin: 30px 30px 30px 10vw;
 }
 
 /*****************
@@ -334,5 +314,11 @@ td{
     }
     .sub2{
         font-size: 20px;
+    }
+    th{
+        font-size: 12px;
+    }
+    td{
+        font-size: 8px;
     }
 }

@@ -150,7 +150,11 @@ body {
   padding: 20px; }
 
 /****UN BUEN MATE****/
-/* tabla */
+.estilo-tabla {
+  font-size: 20px;
+  text-shadow: 3px 3px 5px white;
+  background-color: #5dc1b98a; }
+
 th {
   font-family: "Raleway", sans-serif;
   text-align: center;
@@ -159,7 +163,7 @@ th {
 
 td {
   font-family: "Raleway", sans-serif;
-  text-align: justify;
+  text-align: center;
   color: black;
   font-size: 15px;
   padding: 5px; }
@@ -257,4 +261,8 @@ td {
   .foto1 {
     width: 40vw; }
   .sub2 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  th {
+    font-size: 12px; }
+  td {
+    font-size: 8px; } }
