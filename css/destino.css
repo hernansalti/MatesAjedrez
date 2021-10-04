@@ -18,10 +18,10 @@ body {
 /*****************
 ------HEADER------
 *****************/
-.hlogo {
+.h-logo {
   width: 20vh; }
 
-.hlogo1 {
+.h-logo1 {
   padding: 15px 0px 10px 15px;
   display: flex;
   align-items: center;
@@ -44,12 +44,12 @@ body {
 
 .sesion {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 /*****************
 ------NAV--------
 *****************/
-.hnav {
+.h-nav {
   margin-bottom: 15px;
   display: flex;
   flex-direction: row;
@@ -58,7 +58,7 @@ body {
 
 .titulo3 {
   font-family: "Raleway", sans-serif;
-  font-size: 20px; }
+  font-size: 1.3rem; }
 
 .desp {
   background-color: #5dc1b98a; }
@@ -94,7 +94,7 @@ body {
   text-shadow: 3px 3px 5px #5dc1b9;
   background-color: rgba(255, 255, 255, 0.356); }
 
-.imgdec {
+.img-dec {
   border-radius: 100px;
   box-shadow: 3px 3px 5px #5dc1b9; }
 
@@ -107,7 +107,7 @@ body {
   height: 100px;
   background: linear-gradient(rgba(0, 0, 0, 0.486), white); }
 
-.logoig {
+.logo-ig {
   margin: 10px;
   width: 50px; }
 
@@ -136,7 +136,7 @@ body {
   box-shadow: 5px 5px 5px #5dc1b9;
   background-color: rgba(255, 255, 255, 0.356); }
 
-.fparrafo1 {
+.f-parrafo1 {
   border-radius: 100px;
   box-shadow: 5px 5px 5px #5dc1b9;
   background-color: rgba(255, 255, 255, 0.356); }
@@ -169,13 +169,13 @@ td {
   padding: 5px; }
 
 /****Productos****/
-.imgprod {
+.img-prod {
   width: 15vw;
   margin: 15px;
   border-radius: 100px;
   box-shadow: 5px 5px 5px #5dc1b9; }
 
-.imgprod1 {
+.img-prod1 {
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -215,7 +215,7 @@ td {
     margin: 0px;
     padding: 0px; }
   .sesion {
-    font-size: 12px; } }
+    font-size: 0.8rem; } }
 
 @media (max-width: 991.98px) {
   .titulo1 {
@@ -234,17 +234,17 @@ td {
     margin-left: 28%; } }
 
 @media (max-width: 768px) {
-  .hlogo {
+  .h-logo {
     width: 15vh; }
   .texto3 {
-    font-size: 14px; }
+    font-size: 1.2rem; }
   .parrafo1 {
     font-size: 1.6vw; }
   .subtitulo1 {
     font-size: 5.5vw; } }
 
 @media (max-width: 575.98px) {
-  .hlogo {
+  .h-logo {
     width: 12vh; }
   .titulo1 {
     font-size: 9vw; }
@@ -256,7 +256,7 @@ td {
     width: 40vw; }
   .texto3 {
     font-size: 12px; }
-  .imgprod {
+  .img-prod {
     width: 35vw; }
   .foto1 {
     width: 40vw; }
