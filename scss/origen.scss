@@ -87,29 +87,37 @@ body{
     width: 20vw;
     margin: 30px 30px 15px 10vw;
 }
-.texto1{
+.decoracion-texto1{
     width: 100%;
     margin: 30px 5px 30px 5px;
-    text-align: $atac;
-    font-family: $fraleway;
     color: $cblanco;
-    font-size: 20px;
     text-shadow: 3px 3px 5px $caqua;
     background-color: $cnegrodeg;
+    border-radius: 100px;
+    box-shadow: 3px 3px 5px $caqua;
+}
+.texto1{
+    text-align: $atac;
+    font-family: $fraleway;
+    font-size: 2rem;
 }
 .img1{
     width: 30vw;
     margin: 30px 30px 30px 10vw;
 }
-.texto2{
+.decoracion-texto2{
     width: 100%;
-    margin: 20px 5px 30px 5px;
-    text-align: $atac;
-    font-family: $fraleway;
     color: $cnegro;
-    font-size: 20px;
     text-shadow: 3px 3px 5px $caqua;
     background-color: $cblancodeg;
+    border-radius: 100px;
+    box-shadow: 3px 3px 5px $caqua;
+}
+.texto2-secundario{
+    padding: 10px;
+    text-align: $atac;
+    font-family: $fraleway;
+    font-size: 1rem;
 }
  .img-dec{
       border-radius: 100px;
@@ -127,18 +135,8 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.486), white)
 }
 .logo-ig{
-    margin: 10px;
+    margin: 5px;
     width: 50px;
-}
-.texto3{
-    margin-left: 10vw;
-    padding-top: 17px;
-    text-align: $atac;
-    font-family: $fraleway;
-    color: $cnegro;
-    font-size: 16px;
-    text-shadow: 3px 3px 5px $caqua;
-    background-color: $cblancodeg;
 }
 
 /****NOSOTROS****/
@@ -167,7 +165,7 @@ body{
     font-family: $fraleway;
     text-align: center;
     color: $cnegro;
-    font-size: 1.2vw;
+    font-size: 1rem;
     padding: 20px;
 }
 /****UN BUEN MATE****/
@@ -181,14 +179,14 @@ th{
     font-family: $fraleway;
     text-align: center;
     color: $cnegro;
-    font-size: 20px;
+    font-size: 1rem;
 }
 td{
     font-family: $fraleway;
     text-align: center;
     color: $cnegro;
-    font-size: 15px;
-    padding: 5px;
+    font-size: 1rem;
+    padding: 3px;
 }
 /****Productos****/
 .img-prod{
@@ -277,11 +275,11 @@ td{
     .h-logo{
         width: 15vh;
     }
-    .texto3{        
-        font-size: 1.2rem;
+    .texto1{
+        font-size: 1.5rem;
     }
     .parrafo1{
-        font-size: 1.6vw;
+        font-size: 0.9rem;
     }
     .subtitulo1{
         font-size: 5.5vw;
@@ -298,15 +296,18 @@ td{
     .titulo2{
         font-size: 5vw;
     }
+    .titulo4{
+        font-size: 3vw;
+    }
     .car{
         width: 30vw;
     }
     .img1{
         width: 40vw;
     }
-    .texto3{        
-        font-size: 12px;
-    }
+    .texto2-secundario{
+        font-size: 0.8rem;
+    }   
     .img-prod{
         width: 35vw;
     }
@@ -317,9 +318,9 @@ td{
         font-size: 20px;
     }
     th{
-        font-size: 12px;
+        font-size: 0.8rem;
     }
     td{
-        font-size: 8px;
+        font-size: 0.8rem;
     }
 }
