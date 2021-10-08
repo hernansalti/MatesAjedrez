@@ -234,6 +234,73 @@ td{
     width: 10vw;
 }
 
+/****PAGINA 404****/
+
+
+.p404{
+  background: linear-gradient(to right, $caquadeg 50%, $cgris 50%);
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: $cblanco;
+}
+
+.p404-contenido {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  max-width: 1000px;
+  width: calc(100% - #{4rem});
+  margin: 0 auto;
+  > * {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    padding: 2.5rem;
+  }
+}
+
+.p404-img {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/right-edges.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 25px 100%;
+  .img-404 {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.p404-texto {
+  text-align: center;
+  .p404-titulo {
+    font-family: "Raleway", cursive;
+    font-size: 3rem;
+    color:  $cblanco;
+    margin-bottom: 1.2rem;
+  }
+
+  .p404-button {
+    font-family: "Raleway", cursive;
+    font-size: 1rem;
+    color: $cnegro;
+    border: none;
+    background-color: $caqua;
+    padding: 1rem 2.5rem;
+    transform: skew(-5deg);
+    &:hover {
+      background-color:  $caquao;
+      transform: scale(1.15);
+    }
+  }
+}
+
 /*****************
 --MEDIA QUERIES---
 *****************/
@@ -283,6 +350,24 @@ td{
     }
     .subtitulo1{
         font-size: 5.5vw;
+    }
+    .p404 {
+        background: $cgris;
+        font-size: 1rem;
+      }
+    .p404-contenido {
+    flex-flow: column;
+    > * {
+        max-width: 700px;
+        height: 100%;
+    }
+    }
+    .p404-img {
+    background-image: none;
+    background-color: white;
+    .img-404 {
+        max-width: 300px;
+    }
     }
 }
 //portrait phones
