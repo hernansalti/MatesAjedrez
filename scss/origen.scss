@@ -236,7 +236,6 @@ td{
 
 /****PAGINA 404****/
 
-
 .p404{
   background: linear-gradient(to right, $caquadeg 50%, $cgris 50%);
   font-family: "Raleway", sans-serif;
@@ -279,12 +278,7 @@ td{
 
 .p404-texto {
   text-align: center;
-  .p404-titulo {
-    font-family: "Raleway", cursive;
-    font-size: 3rem;
-    color:  $cblanco;
-    margin-bottom: 1.2rem;
-  }
+  
 
   .p404-button {
     font-family: "Raleway", cursive;
@@ -361,10 +355,11 @@ td{
         max-width: 700px;
         height: 100%;
     }
+    
     }
     .p404-img {
     background-image: none;
-    background-color: white;
+    background-color: $cgris;
     .img-404 {
         max-width: 300px;
     }
